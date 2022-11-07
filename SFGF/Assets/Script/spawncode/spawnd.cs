@@ -46,7 +46,10 @@ public class spawnd : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SpawndDogTime -= Time.deltaTime;
+        if (NumDog > 0)
+        {
+            SpawndDogTime -= Time.deltaTime;
+        }
         if (SpawndDogTime <= 0)
         {
             if (NumDog > 0)
