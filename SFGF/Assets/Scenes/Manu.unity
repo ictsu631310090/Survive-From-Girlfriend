@@ -953,8 +953,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000012617}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -704}
+  m_SizeDelta: {x: 562.9601, y: 216.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675825777
 MonoBehaviour:
@@ -976,10 +976,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits
+  m_text: "Credits\n \n\n\n\n\n\nGame Director / Game Developer / Tester\n\u0E1E\u0E23\u0E1E\u0E34\u0E42\u0E21\u0E01\u0E02\u0E4C
+    \u0E08\u0E31\u0E19\u0E17\u0E23\u0E4C\u0E2B\u0E2D\u0E21\n631310090\n\n\n.\n\n\nTester
+    / Game  Developer\n\u0E1B\u0E31\u0E13\u0E11\u0E4C \u0E27\u0E23\u0E23\u0E13\u0E1E\u0E24\u0E01\u0E29\u0E4C\n631310280\n\n\n.\n\n\nModler
+    / Level Design / Rigging \n\u0E20\u0E39\u0E29\u0E13\u0E30 \u0E01\u0E31\u0E25\u0E1B\u0E34\u0E22\u0E30\u0E20\u0E31\u0E13\u0E11\u0E4C\n631310092\n\n\n.\n\n\n2D
+    Artisit/3D Artisit\n\u0E0A\u0E34\u0E29\u0E13\u0E38\u0E1E\u0E07\u0E28\u0E4C \u0E19\u0E32\u0E04\u0E19\u0E19\u0E17\u0E4C\n631310276\n\n\n.\n\n\nArt
+    Dev / Concept Artist / Tactical\n\u0E08\u0E34\u0E23\u0E1E\u0E31\u0E12\u0E19\u0E4C
+    \u0E2A\u0E07\u0E04\u0E23\u0E34\u0E19\u0E17\u0E23\u0E4C\n631310087\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5cb4ce8549aa73c44b679a2b5eaf94b3, type: 2}
+  m_sharedMaterial: {fileID: -2407458442161683556, guid: 5cb4ce8549aa73c44b679a2b5eaf94b3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1003,8 +1009,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 21
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1790,7 +1796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1516386147
 RectTransform:
   m_ObjectHideFlags: 0
