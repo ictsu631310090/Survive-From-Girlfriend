@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
-{
+{//Dog
     public float radius;
     [Range(0,360)]
     public float angle;

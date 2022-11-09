@@ -22,7 +22,7 @@ public class manumanager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("1");
+        SceneManager.LoadScene(1);
         Time.timeScale = 1; //เวลาในเกมเดินต่อ
     }
     public void openCreditsUI()
