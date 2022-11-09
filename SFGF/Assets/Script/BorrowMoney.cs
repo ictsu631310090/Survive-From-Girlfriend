@@ -64,7 +64,7 @@ public class BorrowMoney : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.E) && canBorrow == true)
+        if (Input.GetKey(KeyCode.Q) && canBorrow == true)
         {
             BM.value += 5;
         }
