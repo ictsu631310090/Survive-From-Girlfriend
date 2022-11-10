@@ -58,6 +58,7 @@ public class manumanager : MonoBehaviour
         itemmanager.haveWater = false;
         itemmanager.haveWater2 = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        FieldOfView1.canSeePlayer = false;
     }
     public void backgame()
     {

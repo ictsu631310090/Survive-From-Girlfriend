@@ -67,7 +67,7 @@ public class spawnGF : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (FieldOfView1.canSeePlayer == false)
+        if (FieldOfView1.canSeePlayer == false && Time.timeScale != 0)
         {
             time -= Time.deltaTime;
         }
