@@ -17,6 +17,8 @@ public class spawnGF : MonoBehaviour
     public Transform gf8out;
     public float time = 30.0f;
     float maxtime;
+    public AudioClip sfxshespawn;
+    public AudioSource sfxAudioSource_shespawn;
 
     // Start is called before the first frame update
     public void GenerateGF()
@@ -55,6 +57,7 @@ public class spawnGF : MonoBehaviour
         {
             cloneGF.transform.position = gf8out.position;
         }
+        sfxAudioSource_shespawn.PlayOneShot(sfxshespawn);
     }
     void Start()
     {

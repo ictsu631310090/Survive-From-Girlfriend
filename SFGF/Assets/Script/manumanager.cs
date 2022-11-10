@@ -12,7 +12,6 @@ public class manumanager : MonoBehaviour
     Text timeText;
 
     public GameObject GameoverUI;
-    public GameObject winnerUI;
     public GameObject MerchantUI1;
     public GameObject MerchantUI2;
     public static bool OpenGameoverUI = false;
@@ -24,6 +23,10 @@ public class manumanager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
         Time.timeScale = 1; //เวลาในเกมเดินต่อ
+    }
+    public void Manu() 
+    {
+        SceneManager.LoadScene(0);
     }
     public void openCreditsUI()
     {
@@ -42,7 +45,6 @@ public class manumanager : MonoBehaviour
     public void RestarGame()
     {
         GameoverUI.SetActive(false);
-        winnerUI.SetActive(false);
         PauseUI.SetActive(false);
         time = 0.0f;
         Time.timeScale = 1;
@@ -70,8 +72,6 @@ public class manumanager : MonoBehaviour
     {
         OpenGameoverUI = false;
         OpenwinnerUI = false;
-        GameoverUI.SetActive(false);
-        winnerUI.SetActive(false);
         PauseUI.SetActive(false);
     }
 
@@ -96,9 +96,9 @@ public class manumanager : MonoBehaviour
 
         if (OpenwinnerUI == true)
         {
-            winnerUI.SetActive(true);
             MerchantUI1.SetActive(false);
             MerchantUI2.SetActive(false);
+            SceneManager.LoadScene("End");
         }
         if (OpenGameoverUI == true)
         {
