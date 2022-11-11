@@ -169,7 +169,7 @@ public class walking_code : MonoBehaviour
         float diry;
         dirx = Input.GetAxis("Horizontal");
         diry = Input.GetAxis("Vertical");
-        MainAnimator.SetFloat("WalkH", Mathf.Abs(dirx)+ Mathf.Abs(diry));
+        MainAnimator.SetFloat("WalkH", Mathf.Abs(dirx) + Mathf.Abs(diry));
 
         if (characterController.isGrounded)
         {
