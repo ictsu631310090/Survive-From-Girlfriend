@@ -1,527 +1,527 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1668328651278465, "dur":73180, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328651351662, "dur":13122, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1668328651364873, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1668328651364921, "dur":243, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1668328651365186, "dur":894, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328651366080, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345237, "dur":157, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345394, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345409, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345412, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345421, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345423, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345432, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345435, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345444, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345457, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674345480, "dur":111926, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1668328651365819, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651366125, "dur":2270, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651368607, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1668328651368608, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651368784, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1668328651368788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651387004, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1668328651389283, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1668328651389313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651389346, "dur":18574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1668328651407937, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1668328651407979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651407986, "dur":15641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1668328651423645, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668328651423682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651423990, "dur":38901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668328651462906, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668328651462935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651463922, "dur":26806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668328651490744, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1668328651490773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651490780, "dur":34383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1668328651525186, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328651525253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328651525274, "dur":852474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652377771, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652377798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652377806, "dur":121562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652499385, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652499407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652499414, "dur":35692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652535128, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652535149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652535158, "dur":17677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652552857, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652552889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652552898, "dur":15054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652567969, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652567997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652568003, "dur":43561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652611578, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652611599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652611605, "dur":43610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652655234, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652655254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652655262, "dur":148664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652803942, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652803963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652803969, "dur":66113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652870097, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652870112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652870119, "dur":49277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652919418, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652919482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652919494, "dur":27902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652947417, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652947436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652947445, "dur":22015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652969476, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328652969492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328652969499, "dur":214585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653184097, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653184154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653184159, "dur":185979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653370181, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653370231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653370249, "dur":35140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653405447, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653405498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653405518, "dur":107377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653512927, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653512980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653512993, "dur":120911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653633968, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653634012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653634026, "dur":27331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653661393, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653661429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653661444, "dur":23876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653685353, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653685388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653685402, "dur":83424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653768840, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653768857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653768866, "dur":45237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653814128, "dur":81919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653896052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653896059, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653896532, "dur":51293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653947832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328653947842, "dur":27089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328653975018, "dur":28752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654003779, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328654003794, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654005225, "dur":16115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654021343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328654021350, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654021757, "dur":15173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654036933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328654036940, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654038872, "dur":68322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654107200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328654107208, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654108268, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328654108283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328654108290, "dur":956057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328655064362, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328655064381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328655064386, "dur":452687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668328655517095, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1668328655517112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328655517117, "dur":71680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1668328655588813, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1668328655588827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328655588832, "dur":1090341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1668328656679187, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level2.resS" }}
-,{ "pid":12345, "tid":1, "ts":1668328656679199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328656679204, "dur":155667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level2.resS" }}
-,{ "pid":12345, "tid":1, "ts":1668328656834884, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level2" }}
-,{ "pid":12345, "tid":1, "ts":1668328656834896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328656834901, "dur":127614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level2" }}
-,{ "pid":12345, "tid":1, "ts":1668328656962535, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1668328656962548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668328656962555, "dur":300973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1668328657263544, "dur":17081676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651365903, "dur":282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651366185, "dur":2446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651368633, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1668328651368707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651387575, "dur":36083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1668328651423678, "dur":22712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1668328651446393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651446400, "dur":8794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1668328651455209, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1668328651455245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651455267, "dur":49061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1668328651504344, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1668328651504382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651504390, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1668328651506670, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1668328651506705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651506809, "dur":24053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1668328651530880, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328651530916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328651530921, "dur":737741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652268681, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652268714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652268720, "dur":256762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652525498, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652525525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652525534, "dur":77271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652602820, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652602834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652602841, "dur":28861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652631716, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652631739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652631746, "dur":15656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652647418, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652647433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652647439, "dur":28895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652676348, "dur":87347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652763702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652763712, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652764963, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652764983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652764988, "dur":82370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652847370, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652847386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652847392, "dur":17296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652864702, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652864717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652864723, "dur":23179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652887917, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652888268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652888275, "dur":94579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652982867, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328652982880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328652982886, "dur":64359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653047261, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653047277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653047284, "dur":136641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653183942, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653183970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653183980, "dur":197962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653381992, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653382070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653382090, "dur":86212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653468341, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653468376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653468391, "dur":207174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653675598, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653675636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653675650, "dur":49436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653725101, "dur":158291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653883397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653883404, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653884428, "dur":31798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653916230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653916238, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653916710, "dur":19679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653936394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328653936403, "dur":35923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328653972374, "dur":182222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654154601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328654154609, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654155415, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654155431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328654155436, "dur":101278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654256729, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654256749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328654256755, "dur":355781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654612558, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654612575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328654612583, "dur":228073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654840686, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328654840703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328654840712, "dur":355921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655196645, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655196664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328655196683, "dur":26480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655223178, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655223193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328655223200, "dur":81946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655305159, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655305172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328655305178, "dur":683703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668328655988933, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668328655988956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328655988963, "dur":674546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668328656663524, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668328656663537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328656663543, "dur":299496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668328656963057, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1668328656963073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328656963078, "dur":32056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1668328656995147, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1668328656995159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328656995178, "dur":50761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1668328657045952, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668328657045966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328657045971, "dur":43114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668328657089099, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1668328657089113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668328657089118, "dur":155773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1668328657244937, "dur":17100288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651365864, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651366133, "dur":2503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651368639, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1668328651368699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651388172, "dur":21723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1668328651409912, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1668328651409940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651409946, "dur":21127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1668328651431095, "dur":15429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1668328651446527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651446534, "dur":59024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1668328651505596, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1668328651505638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651505655, "dur":13987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1668328651519660, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328651520138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651520302, "dur":38825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328651559164, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1668328651559282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651559294, "dur":62691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1668328651622001, "dur":85069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328651707076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651707282, "dur":133063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328651840362, "dur":141495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328651981862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328651981906, "dur":41071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652022990, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652023014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652023019, "dur":18693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652041753, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652041779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652041786, "dur":126901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652168703, "dur":99163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652267878, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652267894, "dur":327447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652595355, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652595369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652595375, "dur":43016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652638403, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652638417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652638423, "dur":46849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652685288, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652685302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652685309, "dur":38840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652724166, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652724180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652724187, "dur":70190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652794391, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652794405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652794410, "dur":107620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652902043, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652902056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652902061, "dur":39130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652941204, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652941243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652941249, "dur":21562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652962831, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328652962854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328652962877, "dur":97300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653060195, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653060214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653060222, "dur":321887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653382155, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653382205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653382224, "dur":65961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653448230, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653448330, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653448352, "dur":64520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653512906, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653512945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653512962, "dur":104015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653617013, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653617054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653617071, "dur":34469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653651572, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653651608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653651622, "dur":52808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653704440, "dur":82352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653786797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653786806, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653787746, "dur":73311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653861061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653861068, "dur":10014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653871096, "dur":111259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653982368, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328653982391, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328653983913, "dur":45841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654029760, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654029774, "dur":9003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654038791, "dur":28918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654067714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654067725, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654068403, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654068436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654068443, "dur":62573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654131033, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654131051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654131072, "dur":44546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654175632, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654175647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654175653, "dur":41173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654216842, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654216857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654216863, "dur":365072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654581959, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654581981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654581990, "dur":335192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654917197, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328654917218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328654917224, "dur":324328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328655241582, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328655241600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328655241606, "dur":101628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328655343249, "dur":78264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328655421520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328655421530, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668328655422371, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1668328655422386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328655422392, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1668328655425816, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1668328655425834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328655425841, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1668328655426319, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1668328655426336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328655426342, "dur":9229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1668328655435591, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1668328655435607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668328655435613, "dur":18909544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1668328674345179, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":3, "ts":1668328674345182, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651366052, "dur":179, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651366231, "dur":2427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651368659, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1668328651368723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651387551, "dur":36460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1668328651424038, "dur":22315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1668328651446361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651446396, "dur":20741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1668328651467156, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1668328651467202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651467222, "dur":48933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1668328651516170, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1668328651516199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651516205, "dur":44844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1668328651561065, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG.exe" }}
-,{ "pid":12345, "tid":4, "ts":1668328651561577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651561585, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG.exe" }}
-,{ "pid":12345, "tid":4, "ts":1668328651562748, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1668328651562779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328651664568, "dur":603326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1668328652267971, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652268001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652268007, "dur":349204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652617227, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652617240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652617246, "dur":77834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652695098, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652695301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652695310, "dur":39045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652734369, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652734385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652734443, "dur":29785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652764242, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652764256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652764261, "dur":72875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652837150, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652837164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652837170, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652838381, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652838438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652838443, "dur":40567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652879025, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652879065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652879072, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652881846, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652881892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652881901, "dur":25050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652906965, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328652906979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328652906985, "dur":333942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653241017, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653241043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653241054, "dur":180799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653421903, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653421954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653421973, "dur":90842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653512852, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653512906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653512920, "dur":112131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653625086, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653625122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653625170, "dur":79092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653704278, "dur":58062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653762351, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653762368, "dur":6577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653768956, "dur":38444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653807406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653807415, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653808119, "dur":155948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653964080, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328653964103, "dur":11005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328653975159, "dur":33742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654008904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654008910, "dur":7345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654016268, "dur":9109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654025380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654025387, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654025953, "dur":30336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654056309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654056317, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654056816, "dur":50588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654107408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654107415, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654108274, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654108293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654108298, "dur":54259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654162571, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654162585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654162591, "dur":450114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654612719, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328654612737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328654612742, "dur":451415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655064172, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655064187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655064193, "dur":230557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655294769, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655294787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655294797, "dur":25388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655320198, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655320212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655320218, "dur":34729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655354963, "dur":40773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655395740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655395763, "dur":9651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668328655405429, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1668328655405514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655405627, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1668328655405985, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1668328655405997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655406010, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1668328655406548, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":4, "ts":1668328655406560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655406564, "dur":179101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":4, "ts":1668328655585693, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":4, "ts":1668328655585723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328655585730, "dur":403268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":4, "ts":1668328655989012, "dur":150213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1668328656139230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328656139237, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1668328656139863, "dur":210332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1668328656350201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328656350209, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1668328656350970, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1668328656350985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328656350989, "dur":546253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1668328656897255, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1668328656897268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328656897274, "dur":224556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1668328657121845, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1668328657121930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668328657121937, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/university work/Y 3.1/game/SFGF(fullgame)/SFFG_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1668328657122599, "dur":17222635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668328674587269, "dur":1853, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1668337648995409, "dur":30801, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337649026223, "dur":839, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668337649027109, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668337649027135, "dur":166, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668337649027319, "dur":627, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337649027946, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665051916, "dur":158, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052074, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052094, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052098, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052129, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052134, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052147, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052151, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052162, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052187, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665052211, "dur":354459, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668337649027903, "dur":50, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649027955, "dur":1847, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649029815, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668337649029817, "dur":18005, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649047837, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668337649047844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649048036, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668337649049339, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1668337649049385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649049414, "dur":25252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1668337649074703, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1668337649074744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649074768, "dur":8651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1668337649083435, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668337649083489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649083507, "dur":40215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668337649123758, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1668337649123831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649123841, "dur":24366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1668337649149660, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649149937, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649149954, "dur":742059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649892039, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649892062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649892073, "dur":43388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649935476, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649935491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649935498, "dur":37871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649973395, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649973417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649973426, "dur":9533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649982985, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337649983005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337649983010, "dur":52903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650035930, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650035946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650035952, "dur":58119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650094085, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650094099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650094105, "dur":39821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650133938, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650133953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650133959, "dur":77016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650210990, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650211011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650211017, "dur":199437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650410489, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650410509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650410517, "dur":157797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650568326, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650568340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650568345, "dur":178114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650746472, "dur":220772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650967250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337650967258, "dur":6206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337650973476, "dur":343603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651317084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651317091, "dur":26098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651343202, "dur":73909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651417115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651417123, "dur":167733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651584871, "dur":149961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651734839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651734849, "dur":139178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651874043, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651874061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651874066, "dur":17953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651892041, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651892064, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651892104, "dur":45590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651937756, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651937777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651937788, "dur":54808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651992623, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337651992645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337651992654, "dur":149815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652142490, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652142514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337652142520, "dur":189731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652332278, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652332306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337652332317, "dur":61846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652394199, "dur":30457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652424665, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337652424678, "dur":65767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668337652490470, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668337652490495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337652490504, "dur":5450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668337652495983, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668337652496007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337652496017, "dur":23080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668337652519126, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668337652519152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668337652519164, "dur":4088881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668337656608079, "dur":8443804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649027938, "dur":26, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649027964, "dur":1868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649029833, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668337649029894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649033710, "dur":22821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668337649056552, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668337649056628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649056633, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668337649060360, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668337649060396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649060934, "dur":18583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668337649079532, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668337649079562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649079765, "dur":11062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668337649090846, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1668337649090895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649090903, "dur":41802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1668337649132729, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649132810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649132829, "dur":652290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649785140, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649785164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649785173, "dur":123160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649908350, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649908365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649908371, "dur":34648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649943038, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649943057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649943064, "dur":30310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649973399, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337649973429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337649973434, "dur":27982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650001432, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650001446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650001452, "dur":26351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650027816, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650027832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650027838, "dur":38500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650066353, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650066372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650066378, "dur":39904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650106301, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650106317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650106325, "dur":56374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650162717, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650162732, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650162743, "dur":37629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650200386, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650200399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650200404, "dur":367840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650568260, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650568274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650568281, "dur":178144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650746439, "dur":153427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650899881, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650899902, "dur":16043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650915964, "dur":50751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650966729, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337650966752, "dur":6206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337650972982, "dur":357511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651330498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651330505, "dur":12931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651343449, "dur":70727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651414181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651414203, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651414902, "dur":31763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651446675, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651446692, "dur":138939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651585644, "dur":71799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651657448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651657457, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651661015, "dur":70868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651731892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651731903, "dur":95215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651827148, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651827175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651827191, "dur":46734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651873947, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337651873965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337651873972, "dur":153169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652027157, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652027172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337652027179, "dur":128064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652155263, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652155283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337652155292, "dur":221027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652376344, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652376367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337652376376, "dur":130086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668337652506489, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668337652506518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337652506530, "dur":36243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668337652542803, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668337652542858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337652542871, "dur":3280161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668337655823054, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1668337655823077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337655823086, "dur":238787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1668337656061912, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668337656061937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668337656061950, "dur":237771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668337656299750, "dur":8752135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649027926, "dur":30, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649027957, "dur":1852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649029816, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1668337649029888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649033706, "dur":22846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1668337649056575, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668337649056613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649056621, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668337649060419, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337649060456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649060585, "dur":14270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337649074871, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337649074914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649074921, "dur":36441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337649111383, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337649111441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649111446, "dur":12597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337649124065, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649124123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649126939, "dur":56179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649183142, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1668337649183212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649183217, "dur":120264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1668337649303513, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649303775, "dur":301, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649306466, "dur":32903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649339399, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649339439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649339462, "dur":58854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649398332, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649398358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649398365, "dur":128018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649526421, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649526445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649526460, "dur":46929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649573402, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649573422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649573427, "dur":6332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649579773, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649579798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649579804, "dur":27330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649607162, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649607210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649607221, "dur":26703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649633942, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649634164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649634172, "dur":39891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649674084, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649674101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649674108, "dur":13930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649688054, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649688085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649688092, "dur":12393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649700514, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649700542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649700555, "dur":23912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649724496, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649724521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649724535, "dur":46136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649770689, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649770711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649770719, "dur":26194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649796935, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649796953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649796961, "dur":42499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649839479, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649839501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649839507, "dur":21660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649861183, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649861201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649861208, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649864614, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649864636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649864644, "dur":42616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649907278, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649907302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649907311, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649910788, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649910817, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649910832, "dur":47977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649958826, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649958842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649958850, "dur":24051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649982918, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337649982965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337649982973, "dur":31944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650014932, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650014948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650014953, "dur":32033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650047092, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650047237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650047247, "dur":41015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650088286, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650088305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650088315, "dur":35619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650123949, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650123981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650123989, "dur":57509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650181513, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650181530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650181536, "dur":58022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650239573, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650239594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650239600, "dur":236953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650476574, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650476592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650476600, "dur":121442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650598055, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650598071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337650598077, "dur":148422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337650746520, "dur":543653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651290178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651290186, "dur":4388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651294588, "dur":22564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651317155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651317160, "dur":25983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651343156, "dur":26188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651369349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651369356, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651372333, "dur":67964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651440302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651440310, "dur":145147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651585470, "dur":90642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651676117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651676125, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651678981, "dur":154962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651833948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651833956, "dur":43085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651877072, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651877089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651877098, "dur":24879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651901997, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337651902014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337651902023, "dur":253411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652155453, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652155488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652155495, "dur":40339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652195855, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652195898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652195907, "dur":81111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652277045, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652277073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652277085, "dur":99284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652376392, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652376417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652376425, "dur":37245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668337652413694, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1668337652413860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652424761, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1668337652425732, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1668337652425764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652425796, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1668337652427004, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1668337652427025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652427033, "dur":121774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1668337652548822, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668337652548835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652548841, "dur":420006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668337652968876, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668337652969101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337652969112, "dur":257548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668337653226675, "dur":97811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668337653324491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337653324500, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668337653325716, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337653325744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337653325759, "dur":847635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337654173408, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668337654173423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337654173428, "dur":679122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668337654852571, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337654852594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337654852602, "dur":374098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337655226715, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1668337655226729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337655226734, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1668337655227191, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337655227203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337655227207, "dur":748478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337655975706, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337655975738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337655975744, "dur":68773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668337656044532, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1668337656044545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337656044550, "dur":103394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1668337656147962, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1668337656147985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337656147990, "dur":88082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1668337656236088, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337656236191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668337656236199, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1668337656236896, "dur":8815018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649027968, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649027968, "dur":1845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649029816, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668337649029882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649033890, "dur":42663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668337649076573, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668337649076627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649076635, "dur":34735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668337649111394, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668337649111435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649111443, "dur":10480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668337649122011, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1668337649122330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649123618, "dur":68928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1668337649192580, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG.exe" }}
+,{ "pid":12345, "tid":4, "ts":1668337649193432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649193439, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG.exe" }}
+,{ "pid":12345, "tid":4, "ts":1668337649195065, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1668337649195175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649195385, "dur":268126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1668337649463555, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649463588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649463597, "dur":51266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649514879, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649514901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649514906, "dur":54346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649569269, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649569290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649569298, "dur":9521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649578850, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649578904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649578915, "dur":54961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649633894, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649633995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649634003, "dur":53424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649687450, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649687475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649687485, "dur":70448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649757954, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649757972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649757978, "dur":33574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649791583, "dur":152391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649943979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649943987, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649945372, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337649945398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337649945409, "dur":56075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650001496, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650001509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650001513, "dur":73339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650074869, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650074884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650074891, "dur":39692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650114600, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650114653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650114663, "dur":29728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650144406, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650144456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650144465, "dur":28310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650172795, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650172816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650172824, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650175740, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650175754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650175760, "dur":44964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650220743, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650220767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650220778, "dur":255791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650476587, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650476604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650476608, "dur":140377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650617000, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650617014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650617020, "dur":225065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650842100, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337650842115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337650842121, "dur":249800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651091943, "dur":249627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651341577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651341585, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651343408, "dur":33417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651376830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651376839, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651379622, "dur":37491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651417116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651417123, "dur":167726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651584866, "dur":81194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651666066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651666089, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651668883, "dur":221050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651889941, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651889953, "dur":12410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651902378, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651902393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651902398, "dur":62278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651964748, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337651964776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337651964786, "dur":177659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652142471, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652142496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337652142506, "dur":69489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652212013, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652212032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337652212039, "dur":87192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652299269, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652299303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337652299319, "dur":95812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652395175, "dur":66645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652461828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337652461841, "dur":27681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668337652489550, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668337652489579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337652489589, "dur":10077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668337652499699, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668337652499723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668337652499732, "dur":12550650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFFG_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668337665050433, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1668337665050438, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668337665977651, "dur":3204, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
