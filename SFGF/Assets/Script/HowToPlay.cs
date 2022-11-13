@@ -8,7 +8,6 @@ public class HowToPlay : MonoBehaviour
     int PHowToPlay = 1;
     public GameObject P1;
     public GameObject P2;
-    public GameObject P3;
 
     public void openHowToPlay()
     {
@@ -16,7 +15,7 @@ public class HowToPlay : MonoBehaviour
     }
     public void NPHowToPlay()
     {
-        if (PHowToPlay < 3)
+        if (PHowToPlay < 2)
         {
             PHowToPlay++;
         }
@@ -45,19 +44,11 @@ public class HowToPlay : MonoBehaviour
         {
             P1.SetActive(true);
             P2.SetActive(false);
-            P3.SetActive(false);
         }
         if (PHowToPlay == 2)
         {
             P1.SetActive(false);
             P2.SetActive(true);
-            P3.SetActive(false);
-        }
-        if (PHowToPlay == 3)
-        {
-            P1.SetActive(false);
-            P2.SetActive(false);
-            P3.SetActive(true);
         }
     }
 }
