@@ -1,0 +1,674 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668412869939060, "dur":614600, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412870553675, "dur":215052, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668412870768852, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668412870768888, "dur":200, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668412870769108, "dur":815, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412870769923, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258572, "dur":29, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258601, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258615, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258618, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258630, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258689, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258699, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258702, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258711, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258726, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922258748, "dur":280645, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668412870770245, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412870770246, "dur":1924316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412872694563, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668412872694738, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412872694970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412873115357, "dur":134776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668412873250181, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1668412873250232, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412873250264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412873250310, "dur":584324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1668412873834655, "dur":154801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1668412873989456, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412873989513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412873989523, "dur":367704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1668412874357245, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668412874357287, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874357312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874357331, "dur":160496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668412874517843, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412874517891, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874517938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874520331, "dur":34248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412874554598, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF.exe" }}
+,{ "pid":12345, "tid":1, "ts":1668412874555184, "dur":21593, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874576785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874576791, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF.exe" }}
+,{ "pid":12345, "tid":1, "ts":1668412874578371, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1668412874578411, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874578440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412874578577, "dur":422746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1668412875001341, "dur":71753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412875073096, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412875073178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412875073201, "dur":332970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412875406188, "dur":25935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412875432124, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412875432181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412875432188, "dur":311005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412875743234, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412875743298, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412875743390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412875743407, "dur":579617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412876323056, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412876323098, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412876323161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412876323174, "dur":542211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412876865398, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412876865410, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412876865458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412876865462, "dur":393966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877259442, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877259462, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877259488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877259495, "dur":16926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877276435, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877276449, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877276478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877276484, "dur":308823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877585321, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877585332, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877585358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877585363, "dur":396692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877982068, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412877982086, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877982118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412877982123, "dur":972574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412878954711, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412878954723, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412878954747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412878954751, "dur":255729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879210493, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879210505, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879210530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879210536, "dur":101184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879311733, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879311744, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879311769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879311775, "dur":53654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879365441, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879365466, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879365493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879365498, "dur":205012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879570525, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412879570538, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879570564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412879570569, "dur":1211914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412880782500, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412880782543, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412880782584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412880782591, "dur":70151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412880852757, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412880852771, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412880852806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412880852812, "dur":138778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412880991605, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412880991620, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412880991654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412880991661, "dur":260779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881252454, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881252465, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881252493, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881252502, "dur":97332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881349852, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881349866, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881350054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881350061, "dur":71225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881421302, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881421324, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881421357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881421364, "dur":500905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881922281, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412881922294, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881922390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412881922395, "dur":103328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882025738, "dur":27119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882052858, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882052914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882052920, "dur":27942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882080877, "dur":11204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882092083, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882092147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882092154, "dur":8797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882100964, "dur":432960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882533925, "dur":2043, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882535977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882535986, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882537011, "dur":74893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882611905, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882611976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412882611983, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412882614141, "dur":397755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883011897, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883011955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883011961, "dur":211563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883223542, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883224195, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883224231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883224238, "dur":30392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883254643, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883254657, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883254718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883254726, "dur":54538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883309281, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883309295, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883309336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883309343, "dur":208137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883517497, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883517512, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883517574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883517588, "dur":280092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883797694, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412883797708, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883797737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412883797743, "dur":373763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668412884171520, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668412884275515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412884275521, "dur":165014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668412884440550, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668412884440565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412884440571, "dur":59683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668412884500271, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668412884500289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412884500296, "dur":2141606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668412886641917, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668412886641935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412886641941, "dur":322001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668412886964007, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1668412886964066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412886964084, "dur":122445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1668412887086547, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668412887086566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412887086573, "dur":1087737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668412888174327, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668412888174345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668412888174351, "dur":381146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668412888555511, "dur":33703035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412870770251, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412870770252, "dur":1924306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412872694560, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668412872694719, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412872694820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412873115539, "dur":179332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668412873294888, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668412873294922, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412873294952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412873347575, "dur":492092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668412873839690, "dur":149768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668412873989459, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412873989516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412873989527, "dur":366513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668412874356062, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668412874356103, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874356147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874357316, "dur":43589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668412874400927, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668412874401022, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874401105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874401114, "dur":19028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1668412874420157, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668412874420208, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874420230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874420236, "dur":89229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668412874509485, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1668412874509538, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874509561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874509568, "dur":36694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1668412874546280, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668412874546351, "dur":32599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874578955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874578961, "dur":153834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668412874733091, "dur":115000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412874848092, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874848213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412874848392, "dur":224884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412875073302, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412875073323, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412875073391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412875073396, "dur":669478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412875742936, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412875742980, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412875743073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412875743091, "dur":744582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412876487704, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412876487753, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412876487847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412876487860, "dur":460108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412876947986, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412876948003, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412876948036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412876948043, "dur":490446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412877438502, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412877438515, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412877438546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412877438568, "dur":156519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412877595101, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412877595122, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412877595150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412877595156, "dur":1359463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412878954632, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412878954645, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412878954670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412878954675, "dur":16131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412878970819, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412878970831, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412878970856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412878970861, "dur":394539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412879365414, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412879365434, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412879365461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412879365484, "dur":206372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412879571868, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412879571951, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412879571979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412879571983, "dur":234297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412879806305, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412879806321, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412879806350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412879806354, "dur":1062663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412880869032, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412880869045, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412880869090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412880869096, "dur":311304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881180416, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881180432, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881180463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881180469, "dur":115152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881295637, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881295660, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881295690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881295696, "dur":207900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881503610, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881503624, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881503671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881503678, "dur":438224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881941915, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412881941928, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881941956, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412881941967, "dur":90894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882032877, "dur":84857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882117736, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882117807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882117817, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882120184, "dur":278596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882398781, "dur":8788, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882407580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882407590, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882408539, "dur":33198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882441738, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882441802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882441809, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882444987, "dur":57959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882502947, "dur":20466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882523423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882523432, "dur":13020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882536464, "dur":85214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882621679, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882621772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412882621780, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412882622304, "dur":582643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883204949, "dur":18428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883223386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883223427, "dur":11883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883235326, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883235338, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883235452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883235459, "dur":62539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883298013, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883298027, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883298056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883298063, "dur":34674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883332752, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883332767, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883332801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883332807, "dur":290429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883623253, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883623269, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883623353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883623361, "dur":21652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883645031, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883645047, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883645102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412883645111, "dur":347178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412883992304, "dur":46185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412884038491, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884038583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884038592, "dur":119592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668412884158202, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1668412884158331, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884158370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884158507, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1668412884158997, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1668412884274185, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884274261, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1668412884275222, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668412884275240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884275245, "dur":36363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668412884311625, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668412884311644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884311650, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668412884312251, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1668412884312282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884312287, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1668412884313390, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668412884313414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668412884313419, "dur":37944868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668412922258316, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1668412922258319, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412870770187, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412870770188, "dur":1924310, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412872694530, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1668412872694533, "dur":30279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412872724819, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1668412872724826, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412872724959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412872734163, "dur":516475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1668412873250639, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668412873250689, "dur":156284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412873406990, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412873407008, "dur":10308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668412873417359, "dur":572026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668412873989387, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412873989470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412873989511, "dur":446054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668412874435580, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1668412874435617, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412874435639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412874435645, "dur":88564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1668412874524242, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412874524297, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412874524324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412874524340, "dur":712199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412875236705, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412875236760, "dur":169224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412875405993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412875406001, "dur":116430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412875522477, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412875522518, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412875522655, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412875522674, "dur":467884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412875990588, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412875990639, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412875990705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412875990717, "dur":874599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412876865330, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412876865350, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412876865377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412876865381, "dur":394399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412877259794, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412877259807, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412877259833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412877259839, "dur":722207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412877982059, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412877982076, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412877982104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412877982109, "dur":972495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412878954619, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412878954639, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412878954666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412878954673, "dur":368391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879323098, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879323116, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879323150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879323157, "dur":83604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879406775, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879406793, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879406818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879406823, "dur":35896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879442747, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879442760, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879442790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879442796, "dur":30824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879473633, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879473649, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879473677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879473683, "dur":108681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879582380, "dur":223836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412879806218, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879806281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412879806290, "dur":1026300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412880832605, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412880832626, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412880832655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412880832661, "dur":347763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412881180437, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412881180450, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412881180475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412881180479, "dur":741627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412881922125, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412881922140, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412881922174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412881922183, "dur":91049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882013270, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882013299, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882013337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882013343, "dur":22512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882035868, "dur":71941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882107810, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882108199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882108207, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882109602, "dur":29633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882139236, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882139308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882139316, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882139916, "dur":85932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882225849, "dur":181728, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882407582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882407590, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882408509, "dur":58264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882466774, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882466840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882466847, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882467447, "dur":17213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882484661, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882484730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882484738, "dur":38581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882523334, "dur":1480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882524815, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882525052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882525059, "dur":11538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882536608, "dur":94616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631226, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631310, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631943, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631957, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882631991, "dur":19360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882651367, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412882651383, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882651426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412882651434, "dur":531459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883182910, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883183014, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883183044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883183049, "dur":107679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883290743, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883290756, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883290788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883290793, "dur":114663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883405471, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883405492, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883405524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883405531, "dur":382176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883787725, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412883787741, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883787775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412883787781, "dur":1463012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668412885250835, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668412885250925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412885250940, "dur":397402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668412885648367, "dur":472753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668412886121121, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412886121171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412886121176, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668412886121608, "dur":45530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668412886167139, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412886167197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412886167204, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668412886167684, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668412886167699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412886167702, "dur":1148645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668412887316360, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668412887316384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412887316388, "dur":461369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668412887777771, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668412887777787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412887777805, "dur":407578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668412888185398, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1668412888185414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668412888185419, "dur":374237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1668412888559669, "dur":33698841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412870770485, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412870770485, "dur":1924061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412872694548, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1668412872694774, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412872694897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412873115623, "dur":134519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1668412873250181, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1668412873250245, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412873250272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412873250315, "dur":166791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1668412873417144, "dur":572257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668412873989401, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412873989469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412873989517, "dur":367845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668412874357379, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668412874357411, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412874357435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412874357442, "dur":169310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668412874526768, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412874526814, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412874526841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412874526846, "dur":2323813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412876850675, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412876850691, "dur":14389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412876865089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412876865096, "dur":394380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412877259492, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412877259538, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412877259579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412877260063, "dur":178383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412877438462, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412877438478, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412877438507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412877438513, "dur":48321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412877486848, "dur":268429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412877755278, "dur":226438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412877981724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412877981731, "dur":150552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412878132298, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412878132311, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412878132337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412878132343, "dur":957680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879090042, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879090057, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879090088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879090094, "dur":275398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879365509, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879365522, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879365547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879365551, "dur":211217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879576781, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879576792, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879576816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879576822, "dur":229417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879806270, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412879806285, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879806313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412879806340, "dur":1017624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412880823977, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412880823990, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412880824017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412880824023, "dur":146299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412880970337, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412880970350, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412880970377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412880970383, "dur":224772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412881195170, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412881195183, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412881195217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412881195359, "dur":308232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412881503607, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412881503621, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412881503673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412881503678, "dur":446345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412881950037, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412881950049, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412881950079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412881950085, "dur":94713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882044867, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882044884, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882044931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882044938, "dur":55843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882100795, "dur":121102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882221898, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882221959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882221965, "dur":186836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882408814, "dur":27997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882436812, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882436867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882436874, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882437423, "dur":61483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882498907, "dur":24489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882523422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882523432, "dur":13015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882536463, "dur":107123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882643587, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882643657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882643664, "dur":7843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882651521, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412882651534, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882651770, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412882651781, "dur":348864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883000663, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883000677, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883000707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883000713, "dur":182259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883182988, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883183001, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883183031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883183037, "dur":134278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883317359, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883317373, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883317455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883317461, "dur":198981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883516459, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883516473, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883516501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883516507, "dur":250299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883766821, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883766833, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883766862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412883766868, "dur":208142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412883975066, "dur":790468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412884765536, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412884765618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412884765628, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668412884766953, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668412884766973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412884766980, "dur":1874927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668412886641919, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668412886641936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412886641941, "dur":674370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668412887316327, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1668412887316350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412887316355, "dur":377253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1668412887693622, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1668412887693636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412887693641, "dur":662933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1668412888356589, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1668412888356654, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412888356681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668412888356686, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/git/Survive-From-Girlfriend/SFGF(fullgame)/SFGF_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1668412888357063, "dur":33901505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668412922663058, "dur":2368, "ph":"X", "name": "ProfilerWriteOutput" }
+,
